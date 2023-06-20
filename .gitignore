@@ -1,0 +1,16 @@
+# Carpeta de compilación y salida de compilación
+build/
+# Carpeta de configuración local de la plataforma
+sdkconfig
+# Archivos de estado del IDE
+.vscode/
+*.swp
+*.swo
+# Carpeta de bibliotecas externas
+lib/
+# Archivos de registro y depuración
+*.log
+*.debug
+# Archivos específicos de tu entorno
+sdkconfig.defaults
+sdkconfig.old
