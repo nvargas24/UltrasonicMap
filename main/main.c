@@ -50,7 +50,7 @@ void ultrasonic_task(void *pvParameters) {
             xTaskNotifyGive(data->task_handle);
         }
 
-        vTaskDelay(pdMS_TO_TICKS(1000));  // Esperar 1 segundo
+        //vTaskDelay(pdMS_TO_TICKS(1000));  // Esperar 1 segundo
     }
 }
 
